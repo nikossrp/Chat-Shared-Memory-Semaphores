@@ -12,8 +12,6 @@
 #include "SemInterface.h"  
 
 
-int length_text(char* );
-
 
 int main(int argc, char* argv[])
 {
