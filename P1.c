@@ -242,7 +242,7 @@ int main(int argc, char* argv[])
                     }
                     else{           //if there is noise raise the flag "redo" and resent the message from ENC1   
 
-                        printf("\n(P2->P1) noise = %d P2 resend please wait...\n", noise);
+                        printf("\n(P2->P1) noise = %d P2 retransmit please wait...\n", noise);
                         shared_stuffs2->redo = 1;
                         V(semp3_id);            //go to the previous process
 
