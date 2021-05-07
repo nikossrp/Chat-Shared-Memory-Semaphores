@@ -139,7 +139,7 @@ int main()
                 }
                 else{    //if there is noise raise the flag "redo" and resent the message from ENC1   
 
-                    printf("\n(P1->P2) noise = %d P1 resend please wait.....\n", noise);
+                    printf("\n(P1->P2) noise = %d P1 retransmit please wait.....\n", noise);
                     shared_stuffs3->redo = 1;    
                     V(semp3_id);    //informs CHAN the message has noise
 
